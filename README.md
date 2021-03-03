@@ -22,22 +22,26 @@ cd to the folder to clone the repo
 Clone the repo
 	git clone https://github.com/DrMadvibe/react-learning.git
 
-Show untracked files
-	git status
+## Show untracked files
+	`% git status`
 
-Add untracked files
+## Add untracked files
 - `% git add filename`
 - `% git add -A` All
 - `% git add *` everything
 
-Commit files with message
-	git commit -m "first commit"
+## Commit files with message
+	`% git commit -m "first commit"`
 
-Push files to remote (main)
-	git push main 
+## Push commits to a remote repo
+	`% git push origin main`
 
-Set local username
-	git config user.name "DrMadvibe"  
+## Set local username
+	`% git config user.name "DrMadvibe" `
 
-Set local email address
-	git config user.email drmadvibe@gmail.com
+## Set local email address
+	`% git config user.email drmadvibe@gmail.com`
+
+git push origin main
+remote: Permission to DrMadvibe/react-learning.git denied to hdfeddavidevans.
+fatal: unable to access 'https://github.com/DrMadvibe/react-learning.git/': The requested URL returned error: 403
