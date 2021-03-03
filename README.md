@@ -42,6 +42,24 @@ Clone the repo
 ## Set local email address
 	`% git config user.email drmadvibe@gmail.com`
 
-git push origin main
+## Push to remote repo
+	`% git push origin main`
+
+## Error
 remote: Permission to DrMadvibe/react-learning.git denied to hdfeddavidevans.
 fatal: unable to access 'https://github.com/DrMadvibe/react-learning.git/': The requested URL returned error: 403
+
+## Install webpack & webpack-cli (command line interface) as dev dependencies
+	`% npm install webpack webpack-cli --save-dev`
+
+## Error - reason: unable to get local issuer certificate
+	`% npm config set registry http://registry.npmjs.org/`
+
+## Install babel as dev dependencies
+	`% npm install @babel/core @babel/preset-env @babel/preset-react babel-loader --save-dev`
+
+## Create webpack.config.js file
+	`% touch webpack.config.js`
+
+## Create babel config file
+	`% touch .babelrc`
