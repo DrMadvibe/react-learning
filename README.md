@@ -64,7 +64,6 @@ fatal: unable to access 'https://github.com/DrMadvibe/react-learning.git/': The 
 ## Create babel config file
 	`% touch .babelrc`
 
-## INstall React & React Dom as a dependency
+## Install React & React Dom as a dependency
 	`% npm install react react-dom --save`
 
-	
